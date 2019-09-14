@@ -23,5 +23,6 @@ $ yarn generate
 
 For detailed explanation on how things work, 
 
-check out [Nuxt.js docs](https://nuxtjs.org).
-and [Vue-Ethereum](https://github.com/vdg/vue-ethereum)
+check out [Nuxt.js docs](https://nuxtjs.org),
+[Vue-Ethereum](https://github.com/vdg/vue-ethereum)
+and [web3.js](https://web3js.readthedocs.io/en/v1.2.1/)!

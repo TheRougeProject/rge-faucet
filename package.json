@@ -1,0 +1,49 @@
+{
+  "name": "rge-faucet",
+  "version": "1.0.0",
+  "description": "RGE testnet faucet - The Rouge Project",
+  "author": {
+    "name": "Valentin D. Guillois",
+    "email": "vdg@rouge.network",
+    "url": "https://github.com/vdg"
+  },
+  "repository": "TheRougeProject/faucet.git",
+  "license": "GPL-3.0-only",
+  "keywords": [
+    "ethereum",
+    "web3",
+    "vue",
+    "vuex",
+    "nuxt",
+    "plugin",
+    "rouge.js",
+    "rge",
+    "faucet",
+    "testnet"
+  ],
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@nuxtjs/font-awesome": "^1.0.4",
+    "nuxt": "^2.9.2",
+    "rouge-protocol-solidity": "0.17.0",
+    "vue-ethereum": "^0.2.5",
+    "web3": "^1.2.1"
+  },
+  "devDependencies": {
+    "@nuxtjs/eslint-config": "^1.1.2",
+    "@vue/test-utils": "^1.0.0-beta.27",
+    "babel-jest": "^24.1.0",
+    "eslint": "^6.4.0",
+    "eslint-plugin-nuxt": "^0.4.3",
+    "jest": "^24.1.0",
+    "node-sass": "^4.12.0",
+    "sass-loader": "^8.0.0",
+    "vue-jest": "^4.0.0-0"
+  }
+}

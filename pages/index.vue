@@ -75,8 +75,6 @@
 
 <script>
 
-import Web3 from 'web3'
-
 import RGEToken from 'rouge-protocol-solidity/build/contracts/TestRGEToken.json'
 
 import { mapGetters } from 'vuex'
@@ -95,7 +93,7 @@ export default {
     }
   },
   mounted () {
-    this.$eth.on()
+    this.$eth.connect()
   },
   methods: {
     giveMeRGE: async function () {
